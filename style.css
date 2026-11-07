@@ -1,0 +1,63 @@
+body {
+   margin: 0;
+   padding: 2rem 1rem;
+   font-family: Georgia, "Times New Roman", serif;
+   background: #f5ead9;
+   color: #2b1a12;
+}
+
+.card {
+   max-width: 640px;
+   margin: 0 auto;
+   padding: 1.5rem 2rem;
+   background: #fffdf8;
+   border-radius: 16px;
+   border-top: 6px solid #b9553a;
+}
+
+h1 { margin-top: 0; }
+h2 { font-size: 1.05rem; margin: 0 0 0.4rem; }
+
+label { font-weight: bold; }
+select { display: block; width: 100%; margin-top: 0.3rem; padding: 0.5rem; font-size: 1rem; }
+
+fieldset { border: 1px solid #c9b79c; border-radius: 8px; margin: 1rem 0; }
+fieldset label { margin-right: 1rem; font-weight: normal; }
+
+.actions { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+
+button, .button {
+   display: inline-block;
+   padding: 0.6rem 1.2rem;
+   border: 2px solid #b9553a;
+   border-radius: 999px;
+   background: #b9553a;
+   color: #fff;
+   font-size: 1rem;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.button.secondary { background: transparent; color: #b9553a; }
+
+.welcome-note { font-style: italic; }
+
+.receipt-card {
+   padding: 1rem;
+   margin: 1rem 0;
+   background: #fff;
+   border: 1px dashed #c9b79c;
+   font-family: "Courier New", monospace;
+}
+
+.insight-card {
+   margin: 1rem 0;
+   padding: 1rem;
+   background: #f5ead9;
+   border-radius: 10px;
+}
+
+.insight-note { font-size: 0.9rem; color: #6b4a3a; }
+.pricing-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.full-width-note { grid-column: 1 / -1; margin: 0; }
+.price-figure { font-size: 1.6rem; font-weight: bold; margin: 0; }
